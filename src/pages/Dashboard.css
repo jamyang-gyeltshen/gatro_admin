@@ -1,0 +1,61 @@
+
+.styled-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.4cm;
+    font-family: sans-serif;
+    max-width:100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: rgb(47, 68, 171);
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 8px 12px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+
+
+.btn {
+    border: none;
+    color: white;
+    padding: 4px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: rgb(69, 207, 165);
+}
+
+.btn-delete {
+    background-color: red;
+}
+
+.btn-view {
+    background-color: #e7e249;
+    color: black;
+}
+.styled-table {
+    background-color: white;
+}
+
+body {
+    /* background-image: url('/public/com2.gif'); */
+    background-size:cover;
+    height: 50%;
+}
